@@ -1,0 +1,25 @@
+div {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+Form {
+  width: 300px;
+  margin: auto auto;
+  height: 60vh;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.googleBtn,
+.facebookBtn {
+  margin: 10px;
+}
